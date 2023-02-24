@@ -5,10 +5,8 @@ class Solution:
 
     def twoSum(self, nums: list[int], target: int) -> list[int]:
         seen = {}
-        listNum = []
         for i, value in enumerate(nums):  # 1
             remaining = target - nums[i]  # 2
-            listNum.append(value)
 
             if remaining in seen:  # 3
                 return [i, seen[remaining]]  # 4
