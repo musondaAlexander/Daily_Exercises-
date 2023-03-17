@@ -18,7 +18,7 @@ public class CharacterToNumber {
         
 public static void main(String[] args) {
 
-    System.out.println(CharacterToNumber.parseInt("Z"));
+    System.out.println(CharacterToNumber.parseInt("A"));
 }
 
 }
